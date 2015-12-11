@@ -423,8 +423,8 @@ namespace SeleniumLaptop
                     Thread.Sleep(1000);
                     if (driver.PageSource.Contains("business days"))
                     {
-                        //Success the cheap Ass laptop has been added to the cart.
-                        Console.WriteLine("Success the cheap Ass laptop has been added to the cart.");
+                        //Success the laptop has been added to the cart.
+                        Console.WriteLine("Success the laptop has been added to the cart.");
                         
                         SendEmailMessage( "This Laptop Cost = " + laptop.price.ToString(), "Laptop Cart, Price = " + laptop.price.ToString());
 
